@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    padding: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.about {
+    padding: 40px;
+    text-align: center;
+}
+
+.skills {
+    padding: 40px;
+    text-align: center;
+}
+
+.skill box {
+    display: inline-block;
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
