@@ -65,6 +65,13 @@ nav ul li a:hover {
     transition: 0.3s;
 }
 
+.hero button:hover {
+    background-color: gray;
+    transform: scale(1.1);
+    /* transition: 0.3s; */
+
+}
+
 .about {
     padding: 40px;
     text-align: center;
@@ -87,11 +94,6 @@ nav ul li a:hover {
     background-color: black;
     color: white;
     transition: 0.3s;
-}
-
-.hero button:hover {
-    background-color: gray;
-    transform: scale(1.1);
 }
 
 .hero img {
@@ -131,11 +133,24 @@ nav ul li a:hover {
     cursor: pointer;
 
     transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
 .contact button:hover {
     transform: scale(1.1);
+
+    box-shadow: 0 6px 15px rgba(0,0,0,0.5);
 }
 
+footer {
+    background-color: #111;
+    color: white;
 
+    text-align: center;
+    padding: 20px;
+}
 
+footer p:hover {
+    color: yellow;
+    transition: 0.3s;
+}
