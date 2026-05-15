@@ -55,11 +55,14 @@ nav ul li a:hover {
 }
 
 .hero button {
-    padding: 10px 20px;
+    padding: 12px 25px;
     border: none;
     background-color: black;
     color: white;
     cursor: pointer;
+    border-radius: 8px;
+
+    transition: 0.3s;
 }
 
 .about {
@@ -88,6 +91,7 @@ nav ul li a:hover {
 
 .hero button:hover {
     background-color: gray;
+    transform: scale(1.1);
 }
 
 .hero img {
@@ -121,14 +125,17 @@ nav ul li a:hover {
 }
 
 .contact button {
-    padding: 10px 20px;
+    padding: 12px 25px;
     border: none;
+    border-radius: 8px;
     cursor: pointer;
+
+    transition: 0.3s;
 }
 
-.dark {
-    background-color: #111;
-    color: white;
+.contact button:hover {
+    transform: scale(1.1);
 }
+
 
 
