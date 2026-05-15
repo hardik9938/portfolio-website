@@ -78,24 +78,55 @@ nav ul li a:hover {
 }
 
 .skills {
-    padding: 40px;
+    padding: 20px;
     text-align: center;
 }
 
-.skill-box {
-    display: inline-block;
-    background-color: white;
-    padding: 15px;
-    margin: 10px;
-    border-radius: 10px;
+.skill {
+    margin: 20px auto;
+    width: 300px;
+    text-align: left;
 }
 
-.skill-box:hover {
+.progress {
+    background-color: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 20px;
     background-color: black;
-    color: white;
-    transition: 0.3s;
+    border-radius: 20px;
+
+    animation: grow 2s;
 }
 
+.html {
+    width: 120px;
+}
+
+.css {
+    width: 90px;
+}
+
+.javascript {
+    width: 100px;
+}
+
+.python {
+    width: 150px;
+}
+
+.github {
+    width: 70px;
+}
+
+@keyframes grow {
+    from {
+        width: 0;
+    }
+}
 .hero img {
     border-radius:50%;
     margin-top: 20px;
@@ -119,6 +150,22 @@ nav ul li a:hover {
     transition: 0.3s;
 }
 
+.project-card button {
+    padding: 10px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.project-card button:hover {
+    transform: scale(1.1);
+    background-color: gray;
+}
+
 .contact {
     padding: 40px;
     text-align: center;
@@ -140,6 +187,22 @@ nav ul li a:hover {
     transform: scale(1.1);
 
     box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: yellow;
 }
 
 footer {
